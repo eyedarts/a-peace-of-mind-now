@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,11 +42,11 @@
 			</div>
 		</header>
 
-		<section class="main">
+		<main class="main">
 			<div class="container">
 				{{ content }}
 			</div>
-		</section>
+		</main>
 
 		{% if page.call_to_action == 'Map' and site.google_maps_javascript_api_key %}
 			<section class="map-section">

@@ -4,7 +4,9 @@ layout: default
 
 {% if page.title %}
 	<div class="page-header">
-		<h2>{{ page.title }}</h2>
+    {% if page.title != "Home" %}
+      <h2>{{ page.title }}</h2>
+    {% endif %}
 	</div>
 {% endif %}
 

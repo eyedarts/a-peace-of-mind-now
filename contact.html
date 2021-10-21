@@ -36,6 +36,13 @@ map:
 			<label for="email_address">Email Address</label>
 			<input id="email_address" type="email" name="email" required>
 
+			<label for="phone">Phone Number</label>
+			<input id="phone"
+             type="tel"
+             name="phone"
+             pattern="[0-9]{3}(-|.)[0-9]{3}(-|.)[0-9]{4}|[0-9]{10}|\([0-9]{3}\) [0-9]{3}( |-)[0-9]{4}"
+             required>
+
 			<label for="name">Name</label>
 			<input id="name" type="text" name="name" required>
 

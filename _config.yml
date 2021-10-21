@@ -10,15 +10,15 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Home and community-based services waivers provider.
+description: We are a social and human services provider that focuses on case-management as well as home and community-based services.
 author:
-  name:
-  email:
+  name: APOM Now
+  email: info@apomnow.com
   twitter: # twitter username without the @ symbol
 social:
-  name: Justice Template
+  name:
   links:
-    - https://github.com/CloudCannon/justice-jekyll-template
+    # - https://github.com/CloudCannon/justice-jekyll-template
 
 # -----
 # Build
@@ -39,8 +39,8 @@ defaults:
       layout: page
       # Image Source
       # https://www.kindpng.com/imgv/TiibRw_donation-clipart-hand-heart-helping-hands-animation-hd/
-      background_image_path: /uploads/handshake.webp
-      image: /uploads/handshake.webp
+      background_image_path: /uploads/handhearts.png
+      image: /uploads/handhearts.png
   -
     scope:
       path: ""

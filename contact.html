@@ -30,7 +30,7 @@ map:
 		<label>Address</label>
 		<address class="contact-info">{{ site.data.company.address | replace: ',', '<br>' }}</address>
 	</div>
-
+<!--
 	<div class="column">
 		<form id="my-form" method="post" action="https://formspree.io/f/xjvjdyrj">
 			<label for="email_address">Email Address</label>
@@ -82,7 +82,7 @@ map:
     }
     form.addEventListener("submit", handleSubmit)
 </script>
-
+-->
 {% if site.google_maps_javascript_api_key and page.call_to_action == 'Map' %}
 	<script>
 		window.mapData = {{ page.map | jsonify }};
